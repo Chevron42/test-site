@@ -1,0 +1,18 @@
+CSS
+----
+selector {
+		 [property:property value;]<--declaration
+}
+
+Selector: html element name rule is applied to
+declaration: statement of a rule
+property: variable like color
+
+can list multiple selectors/element types to apply the same rules to, separated by commas
+
+Selector types
+-element (as above)
+-id <p id='myid'> ; id can only identify one element
+-class just like id but can label several tags
+-by other attribute e.g. img[src] or a[url]
+-conditional e.g. a:hover when you hover over a link
